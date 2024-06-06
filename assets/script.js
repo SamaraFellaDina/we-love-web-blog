@@ -1,3 +1,6 @@
+import express from express
+const express = app
+
 const blogData = [
     {   
       "id": "1",
@@ -63,3 +66,7 @@ const blogData = [
       "description": ""
   }
 ]
+
+app.get("/", function(request, response) {
+
+});
