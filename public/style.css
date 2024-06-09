@@ -10,6 +10,8 @@
     --color-light-blue: #6886ff;
     --color-light-green:#16ff86;
     --color-dark-orange: #F25000;
+    --color-dark-blue: #1000f2;
+
 
     --white:#F2EDE9;
     --black:#262626;
@@ -77,7 +79,7 @@ footer a:hover{
 }
 
 main {
-    padding: 1em
+    padding: 2em;
 }
 
 img {
@@ -86,14 +88,14 @@ img {
 
 a {
     text-decoration: none;
-    color: var(--color-dark-orange);
-    font-size: 1.5em;
+    color: var(--color-dark-blue);
 }
 
 
 .hoofdpagina,
 .artikel {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -110,8 +112,7 @@ a {
     justify-content: center;
 }
 
-.hoofdpagina-blogs,
-.artikel {
+.hoofdpagina-blogs {
     max-width: 1080px;
     display: flex;
     flex-direction: column;
@@ -223,3 +224,20 @@ a {
 
 }
 
+.artikel {
+    background-color: var(--color-light-pink);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.artikel section {
+    max-width: 900px;
+
+}
+
+.artikel section .back-button {
+    background-color: var(--black);
+    color: #16ff86;
+    padding: 1em;
+}
