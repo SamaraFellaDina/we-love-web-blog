@@ -1,16 +1,33 @@
 <%- include('./partials/head') %>
+<title>Welkom bij We<3 web!</title>
 
-    <main>
-        <div>
+    <main class="hoofdpagina">
+        <div class="hoofdpagina-blogs">
+            <h2>Semester 2</h2>
             <ul>
-                <% blogData.forEach(blog => { %>
-                    <a href="/<%-blog.slug%>">
-                        <li>
-                            <section>
-                            <h3><%-blog.title%></h3>
-                            </section>
-                        </li>
-                     </a>
+                <% semester2.forEach(blog => { %>
+                    <li>
+                        <a href="/<%-blog.slug%>">
+                        <h3><%-blog.title%></h3>
+                        <time><%-blog.date%></time>
+                        <p><%-blog.type%></p>
+                        <p><%-blog.short_description%></p>
+                        </a>
+                    </li>
+                <% }); %>
+            </ul>
+
+            <h2>Semester 1</h2>
+            <ul>
+                <% semester1.forEach(blog => { %>
+                    <li>
+                        <a href="/<%-blog.slug%>">
+                        <h3><%-blog.title%></h3>
+                        <time><%-blog.date%></time>
+                        <p><%-blog.type%></p>
+                        <p><%-blog.short_description%></p>
+                        </a>
+                    </li>
                 <% }); %>
             </ul>
          </div>

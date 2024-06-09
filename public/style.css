@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Roboto Flex";
+    src: url("../assets/fonts/RobotoFlex-Regular.ttf");
+}
+
+:root {
+    --regular-font: "Roboto Flex", arial, sans-serif;
+
+    --color-light-pink: #F294D9;
+    --color-light-blue: #6886ff;
+    --color-light-green:#16ff86;
+    --color-dark-orange: #F25000;
+
+    --white:#F2EDE9;
+    --black:#262626;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+}
+
+html {
+    font-family: var(--regular-font);
+}
+
+main {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+.hoofdpagina {
+    background-color: var(--color-dark-orange);
+
+}
+
+.hoofdpagina h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-kerning: ;
+}
+
+.hoofdpagina-blogs ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+    unicode-bidi: isolate;
+
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.hoofdpagina-blogs ul li {
+    transition: padding 0.5s ease-in-out 0.1s, 
+                box-shadow 0.5s ease-in-out 0.1s,
+                border-radius 0.5s ease-in-out 0.1s;
+    padding: 3em;
+    box-shadow: none;
+    width: 15em;
+    height: 15em;
+
+    border-radius: 10em;
+}
+
+.hoofdpagina-blogs ul li:hover {
+    padding: 5em;
+    border-radius: 15em;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+
+.hoofdpagina-blogs ul li:nth-child(5n + 1) {
+    background-color: var(--color-light-green);
+}
+
+.hoofdpagina-blogs ul li:nth-child(5n + 2) {
+    background-color: var(--color-light-pink); 
+}
+
+.hoofdpagina-blogs ul li:nth-child(5n + 3) {
+    background-color: var(--color-light-blue);
+}
+
+.hoofdpagina-blogs ul li:nth-child(5n + 4) {
+    background-color: var(--color-light-green);
+}
+
+.hoofdpagina-blogs ul li:nth-child(5n + 5) {
+    background-color: var(--color-light-pink); 
+}
+
+
+
+
