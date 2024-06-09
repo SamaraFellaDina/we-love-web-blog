@@ -2,46 +2,24 @@
     "data": [
       {   
         "id": "1",
-        "slug": "Simon-Riisnæs-Dagfinrud",
-        "title": "Simon Riisnæs Dagfinrud",
-        "presentor": "Simon Riisnæs Dagfinrud",
-        "type": "presentatie",
-        "short-description": "",
-        "date": "16-02-2024",
-        "semester":"2",
-        "description": ""
-      },
-      {
-        "id": "2",
-        "slug": "Digital-gardening",
-        "title": "Digital gardening",
-        "presentor": "Justus Sturkenboom",
-        "type": "presentatie",
-        "short-description": "Justus heeft ons meer vertelt over `digital gardening`, waarbij hij stapsgewijs laat weten hoe jij je eigen plekje claimt op het web.",
-        "date": "15-03-2024",
-        "semester":"2",
-        "description": "<p>Justus heeft ons meer vertelt over `digital gardening`, waarbij hij stapsgewijs laat weten hoe jij je eigen plekje claimt op het web.</p><h2>Wat is Digital gardening?</h2><ul><li>Een authentieke manier van een website zonder het geprojecteerde beeld van andere websites</li><li>Freestylen</li></ul><h3>1. Iedere keer dat je web doorloopt ondek je nieuwe dingen</h3><ul><li>Typografie</li><li>Tijdlijn</li><li>Zorg dat concepten samenhangen</li></ul><h3>2. Continue groei</h3><ul><li>Het. is. nooit. af.</li></ul><h3>3. Imperfectie & publiek leren</h3><ul><li>Het hoeft niet perfect te zijn je mag de ontwikkeling laten zien.</li></ul><h3>4. Erg persoonlijk en origineel</h3><ul><li>Organiseer een tuin op jou ideeen</li></ul><h3>5. Samengaan van grote diverse inhoud</h3><ul><Li>claim jou plekje op het web</Li></ul><h3>6. onafhankelijheid</h3><ul><li>Wees de baas van je eigen data</li></ul><h3>Indieweb</h3><ul><li>oope -> Mijn link en het blijft mijn data</li><li>Pesos -> Data op eigen platform, word gedeeld op socials en platformen hebben machtiging op mijn data</li></ul>"
-    },
-      {   
-        "id": "3",
         "slug": "Fenna-de-Wilde",
         "title": "Fenna de Wilde",
         "presentor": "Fenna de Wilde",
         "type": "presentatie",
         "short_description": "Over haar projecten en werk",
-        "date": "",
-        "semester":"2",
+        "date": "19-01-2024",
+        "semester": "1",
         "description": "\n<h2>Samenvatting presentatie</h2><p>Fenna de Wilde is een creative content developer en ze is nu al twee jaar werkzaam bij Bakken & Baeck. Hiervoor had je bij Build and Amsterdam gewerkt en dat was meer e-commerce. In totaal is ze al 4.5 jaar werkzaam in de wereld van frontend & design.Tijdens de we-love-web liet ze meerdere sites zien waar zij aan had gewerkt. Er was zelfs een site bij die genomineerd was als website van het jaar.Ze had recentelijk ook aan een crypto website gewerkt waarbij ze de branding van crypto zelf wilde veranderen. De website heet Phantom en zij wilden de site vriendelijker eruit laten zien. Zwart kan namelijk mensen afschrikken die niks begrijpen van cryptocurrency.In het bedrijfsleven weten vrij weinig mensen af van toegankelijkheid. Dit moet eigenlijk wel zo zijn. Als een website niet voor iedereen toegankelijk is, dan heb je er niks aan. Een website gaat vooral over bruikbaarheid en gaat om de gebruiker.</p><h3>Toegankelijkheidsrichtlijnen</h3><ul><li>Focus state voor keyboard gebruikers: Niet alle gebruikers bedienen een interface met een muis. Je kunt dan een focus state toevoegen door een `:focus-visible` te gebruiken.</li><li>Focus state voor keyboard gebruikers: Niet alle gebruikers bedienen een interface met een muis. Je kunt dan een focus state toevoegen door een `:focus-visible` te gebruiken.</li><li>`Aria controls:` Als een element het andere element controleert. Het element dat wordt gecontroleerd krijgt een id en het andere krijgt een aria-controls.</li><li>Zorg ervoor dat je carrousels ook toegankelijk zijn. Dit is vrij lastig als je bijvoorbeeld erdoorheen wil tabben. De carrousels moeten een role=“group” hebben.</li><li>Vermijd het gebruik van li elementen voor je slides. Als je slides verbergt, zal het aangekondigde aantal li-items niet overeenkomen met het werkelijke aantal slides.</li></ul><p>Er zijn dus veel verschillende toegankelijkheidsprincipes in code waar rekening mee gehouden moet worden. Dit kan uiteindelijk, wanneer dit goed uitgevoerd is, gecontroleerd worden aan de hand van toegankelijkheidstesten en als er nog iets mist kan dit in een iteratie nog aangepast worden.</p><h3>Wat heb ik uit deze presentatie gehaald?</h3><p>Ik ben zelf nog niet echt op het advanced niveau van Fenna, dus de dingen die ze uitlegden kwamen me wel bekend voor, maar ik zou er zelf nog niet mee kunnen werken. Wel vond ik het interessant om te zien hoe leerlingen die op CMD of een frontend opleiding hebben gezeten veel aandacht besteden aan toegankelijkheid, waarbij veel mensen in het daadwerkelijke werkveld niet eens echt weten wat toegankelijkheid inhoudt. Ik ben wel voor inclusie, dus ik vind het goed dat er nu steeds meer aandacht aan wordt besteed.</p>\n"
       },
       {   
-        "id": "4",
+        "id": "2",
         "slug": "Julia-Miocene",
         "title": "Julia Miocene",
         "presentor": "Julia Miocene",
         "type": "presentatie",
         "short-description": "",
-        "date": "",
-        "semester":"2",
+        "date": "15-12-2024",
+        "semester": "1",
         "description": ""
       }
 ]}
