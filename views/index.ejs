@@ -8,10 +8,10 @@
                 <% semester2.forEach(blog => { %>
                     <li>
                         <a href="/<%-blog.slug%>">
-                        <h3><%-blog.title%></h3>
-                        <time><%-blog.date%></time>
-                        <p><%-blog.type%></p>
-                        <p><%-blog.short_description%></p>
+                            <p class="hoofdpagina-blogs-type"><%-blog.type%></p>
+
+                            <h3><%-blog.title%></h3>
+                            <p class="hoofdpagina-blogs-description"> <%-blog.short_description%></p>
                         </a>
                     </li>
                 <% }); %>
@@ -22,10 +22,10 @@
                 <% semester1.forEach(blog => { %>
                     <li>
                         <a href="/<%-blog.slug%>">
-                        <h3><%-blog.title%></h3>
-                        <time><%-blog.date%></time>
-                        <p><%-blog.type%></p>
-                        <p><%-blog.short_description%></p>
+                            <p class="hoofdpagina-blogs-type"><%-blog.type%></p>
+                            <h3><%-blog.title%></h3>
+                            <time><%-blog.date%></time>
+                            <p class="hoofdpagina-blogs-description"> <%-blog.short_description%></p>
                         </a>
                     </li>
                 <% }); %>
