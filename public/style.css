@@ -97,6 +97,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .hoofdpagina {
@@ -163,6 +164,7 @@ a {
 /* Styles for the hovered element */
 .hoofdpagina-blogs ul li:hover {
     transform: scale(1.5); /* Scale up the hovered element */
+    transition-duration: 200ms ease-out;
     border-radius: 15em;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     z-index: 10; /* Bring the hovered element to the front */
@@ -226,9 +228,7 @@ a {
 
 .artikel {
     background-color: var(--color-light-pink);
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+
 }
 
 .artikel section {
