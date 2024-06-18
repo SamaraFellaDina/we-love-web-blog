@@ -228,6 +228,7 @@ a {
 
 .artikel {
     background-color: var(--color-light-pink);
+    min-height: 100vh;
 
 }
 
