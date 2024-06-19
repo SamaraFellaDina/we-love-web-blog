@@ -218,26 +218,14 @@
 },
 {   
   "id": "19",
-  "slug": "1‐Basic-functions",
-  "title": "1 ‐ Basic functions",
-  "presentor": "1 ‐ Basic functions",
+  "slug": "8‐Convert-string-to-number",
+  "title": "8 ‐ Convert string to number",
+  "presentor": "8 ‐ Convert string to number",
   "type": "JS-fundamentals",
     "short_description": "Verdiepen in de werelc van JS-Fundametals :)",
   "date": "05-05-2024",
   "semester":"2",
-  "description":"<h2>Wat gebeurd hier?</h2><img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/d3518e04-86c2-4f8a-ba20-8f01d4500a4a'><p>Wat hier gebeurd is dat deze moeten worden opgeteld <code>sum</code> verteld eigenlijk dat het samen kan worden opgeteld.</p><p>Hier word er verteld dat de code moet worden teruggebracht en bij elkaar opgeteld moet worden. <code>return</code> geeft eigenlijk aan dat de <code>function</code> moet eindigen d.m.v. het antwoord te geven. <code>return</code> eindigt en verlaat de <code>function</code></p><h2>Oefeningen</h2><p>Uiteindelijk heb ik de oefeningen gedaan en gebeurde het volgende.</p><img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/8319cbf0-50e5-4ad6-bdec-a2e16eb5a922'><p>Mij werd ook geleerd hoe ik moest vermenigvuldigen</p>",
-  "link_Github":"https://github.com/SamaraFellaDina/js-fundamentals/wiki/0-%E2%80%90-Hello-world"
-},
-{   
-  "id": "20",
-  "slug": "1‐Basic-functions",
-  "title": "1 ‐ Basic functions",
-  "presentor": "1 ‐ Basic functions",
-  "type": "JS-fundamentals",
-    "short_description": "Verdiepen in de werelc van JS-Fundametals :)",
-  "date": "05-05-2024",
-  "semester":"2",
-  "description":"<h2>Wat gebeurd hier?</h2><img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/d3518e04-86c2-4f8a-ba20-8f01d4500a4a'><p>Wat hier gebeurd is dat deze moeten worden opgeteld <code>sum</code> verteld eigenlijk dat het samen kan worden opgeteld.</p><p>Hier word er verteld dat de code moet worden teruggebracht en bij elkaar opgeteld moet worden. <code>return</code> geeft eigenlijk aan dat de <code>function</code> moet eindigen d.m.v. het antwoord te geven. <code>return</code> eindigt en verlaat de <code>function</code></p><h2>Oefeningen</h2><p>Uiteindelijk heb ik de oefeningen gedaan en gebeurde het volgende.</p><img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/8319cbf0-50e5-4ad6-bdec-a2e16eb5a922'><p>Mij werd ook geleerd hoe ik moest vermenigvuldigen</p>",
-  "link_Github":"https://github.com/SamaraFellaDina/js-fundamentals/wiki/0-%E2%80%90-Hello-world"
+  "description":"<p>Ook kan het andersom, je constateert een <code>string</code>, maar je wilt er een nummer van maken.</p><h2><code>Number.parseInt()</code></h2><p>Hiervoor heb je de <code>Number.parseInt()</code> methode voor nodig. deze verwacht 2 parameters van je.</p><img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/cfdff209-f671-41e2-bbef-def57dcc70a3'><ol> <li>De eerste parameter <code>string</code>, zorgt ervoor dat de <code>string</code> veranderd in een nummer </li> <li>De tweede parameter <code>radix</code>, wordt gebruikt in de conversie. als er een hoeveelheid van 10 is, word het <code>[0, 9]</code>. </li></ol><p>Je kan deze twee parameters dan ook niet overslaan, anders weet het systeem niet hoe die moet tellen.</p><h2>Oefening</h2><img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/82fb31c9-0668-4077-9e5a-219d01afabc9'><h3>Wat gebeurd hier?</h3><p><code>return Number.parseInt(age, 10) + 1</code>: brengt een nummer terug door het te parsen, waarbij een formule word bijgevoegd</p>",
+  "link_Github":"https://github.com/SamaraFellaDina/js-fundamentals/wiki/8-%E2%80%90-Convert-string-to-number"
 }
 ]}

@@ -1,22 +1,23 @@
-<h2>Getallen</h2>
-<p>Voor grotere getallen worden er ookwel <code>separators</code> gebruikt. Die laten zien dat de nummer die groter zijn er overzichtelijker uitzien.
+<p>Ook kan het andersom, je constateert een <code>string</code>, maar je wilt er een nummer van maken.</p>
+<h2><code>Number.parseInt()</code></h2>
+<p>Hiervoor heb je de <code>Number.parseInt()</code> methode voor nodig. deze verwacht 2 parameters van je.
 
 </p>
-<img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/467700f6-2269-4bf3-a47d-14b84af3e600'> 
-<p>Dus, wordt het zo gebruikt:</p>
-<img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/2dd81484-1ba1-47cb-8223-170ce180300d'>
-<h2><code>toString()</code></h2><p>Dit is een command die van het nummer een string maakt om het in verschillende momenten goed te kunnen gebruiken.
+<img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/cfdff209-f671-41e2-bbef-def57dcc70a3'>
+<ol>
+    <li>De eerste parameter <code>string</code>, zorgt ervoor dat de <code>string</code> veranderd in een nummer
+    </li>
+    <li>De tweede parameter <code>radix</code>, wordt gebruikt in de conversie. als er een hoeveelheid van 10 is, word het <code>[0, 9]</code>.
+    </li>
+</ol>
 
-</p>
-<img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/8f521d13-d765-4229-9d5d-78028b824e87'>
-<h2>wat is <code>NaN</code>?
-</h2>
-<p><code>NaN</code> staat ookwel voor: <code>Not a Number</code>. Dit is om zelf te noteren en aan te geven dat dit nummer een andere functie heeft en waarschijnlijk een <code>.toString()</code> moet gebruiken.
+<p>Je kan deze twee parameters dan ook niet overslaan, anders weet het systeem niet hoe die moet tellen.
 
 </p>
 
 <h2>Oefening</h2>
-<img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/edfb2834-b7e3-415a-906a-d79061a1f150'>
-<p>Hier zorg je ervoor dat het nummer wat is aangegeven als een <code>string</code> terugkomt.
+<img src='https://github.com/SamaraFellaDina/js-fundamentals/assets/144009778/82fb31c9-0668-4077-9e5a-219d01afabc9'>
+<h3>Wat gebeurd hier?</h3>
+<p><code>return Number.parseInt(age, 10) + 1</code>: brengt een nummer terug door het te parsen, waarbij een formule word bijgevoegd
 
 </p>
