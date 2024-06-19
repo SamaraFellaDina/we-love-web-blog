@@ -232,12 +232,12 @@ a {
 
 }
 
-.artikel section {
+.artikel article {
     max-width: 900px;
 
 }
 
-.artikel section .back-button {
+.artikel article .back-button {
     background-color: var(--black);
     color: #16ff86;
     padding: 1em;
