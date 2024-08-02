@@ -16,11 +16,8 @@ import blogData from './data.json' assert {type:'json'};
 
 
 app.get('/', (request, response) => {
-  // Filter the data for both semesters
   const semester2 = blogData.data.filter(blog => blog.semester === "2");
   const semester1 = blogData.data.filter(blog => blog.semester === "1");
-
-  // Render the 'index.ejs' template with both filtered data sets
   response.render('index', { semester1, semester2 });
 });
 
